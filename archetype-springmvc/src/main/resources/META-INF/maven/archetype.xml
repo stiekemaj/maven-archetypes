@@ -5,18 +5,23 @@
     <!-- @see http://maven.apache.org/guides/mini/guide-creating-archetypes.html -->
 
     <sources>
-        <source>src/main/java/App.java</source>
+        <source>src/main/java/eu/stiekema/jeroen/archetypes/springmvc/security/SimpleUserDetailsService.java</source>
+        <source>src/main/java/eu/stiekema/jeroen/archetypes/springmvc/web/HelloController.java</source>
     </sources>
     <resources>
-
+        <resource>src/main/resources/log4j.properties</resource>
+        <resource>src/main/webapp/WEB-INF/applicationContext-security.xml</resource>
+        <resource>src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml</resource>
+        <resource>src/main/webapp/WEB-INF/web.xml</resource>
+        <resource>src/main/webapp/WEB-INF/pages/hello.jsp</resource>
     </resources>
+
     <testSources>
-        <source>src/test/java/AppTest.java</source>
     </testSources>
+
     <testResources>
-
     </testResources>
-    <siteResources>
 
+    <siteResources>
     </siteResources>
 </archetype>

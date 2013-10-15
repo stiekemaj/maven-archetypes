@@ -2,18 +2,15 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-    <parent>
-        <groupId>eu.stiekema.jeroen.maven-archetypes</groupId>
-        <artifactId>maven-archetypes</artifactId>
-        <version>1.0-SNAPSHOT</version>
-    </parent>
 
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>archetype-springmvc</artifactId>
-    <packaging>jar</packaging>
+    <groupId>${groupId}</groupId>
+    <artifactId>${artifactId}</artifactId>
+    <version>${version}</version>
+    <packaging>war</packaging>
 
-    <name>archetype for Spring MVC and Spring Security</name>
+    <name>A custom project</name>
 
     <properties>
         <project.jdk.version>1.6</project.jdk.version>
