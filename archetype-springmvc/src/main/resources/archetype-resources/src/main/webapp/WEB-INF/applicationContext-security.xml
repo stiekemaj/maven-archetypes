@@ -16,7 +16,7 @@
         <bean:constructor-arg index="0" value="14"/>
     </bean:bean>
 
-    <bean:bean id="simpleUserDetailsService" class="eu.stiekema.jeroen.archetypes.springmvc.security.SimpleUserDetailsService">
+    <bean:bean id="simpleUserDetailsService" class="${groupId}.springmvc.security.SimpleUserDetailsService">
         <bean:constructor-arg index="0" ref="passwordEncoder"/>
     </bean:bean>
 

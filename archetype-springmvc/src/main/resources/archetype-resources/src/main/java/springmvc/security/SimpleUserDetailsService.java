@@ -1,4 +1,4 @@
-package eu.stiekema.jeroen.archetypes.springmvc.security;
+package ${groupId}.springmvc.security;
 
 import java.util.ArrayList;
 import java.util.Collection;

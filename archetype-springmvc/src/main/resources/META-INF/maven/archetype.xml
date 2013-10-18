@@ -5,8 +5,8 @@
     <!-- @see http://maven.apache.org/guides/mini/guide-creating-archetypes.html -->
 
     <sources>
-        <source>src/main/java/eu/stiekema/jeroen/archetypes/springmvc/security/SimpleUserDetailsService.java</source>
-        <source>src/main/java/eu/stiekema/jeroen/archetypes/springmvc/web/HelloController.java</source>
+        <source>src/main/java/springmvc/security/SimpleUserDetailsService.java</source>
+        <source>src/main/java/springmvc/web/HelloController.java</source>
     </sources>
     <resources>
         <resource>src/main/resources/log4j.properties</resource>
