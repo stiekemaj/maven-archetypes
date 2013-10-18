@@ -10,7 +10,7 @@
     <version>${version}</version>
     <packaging>war</packaging>
 
-    <name>A custom project</name>
+    <name>A SpringMVC project</name>
 
     <properties>
         <project.jdk.version>1.6</project.jdk.version>
